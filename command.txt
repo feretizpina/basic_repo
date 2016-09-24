@@ -1,0 +1,11 @@
+cd Desktop
+mkdir basic repo
+git init
+touch index.html
+touch style.css
+git add index.html
+git add style.css
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/feretizpina/basic_repo.git
+git push -u origin master
