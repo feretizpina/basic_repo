@@ -9,3 +9,11 @@ git status
 git commit -m "first commit"
 git remote add origin https://github.com/feretizpina/basic_repo.git
 git push -u origin master
+touch command.txt
+atom command.txt
+git status
+git add .
+git status
+git commit -m "command.txt edit"
+git status
+git push
